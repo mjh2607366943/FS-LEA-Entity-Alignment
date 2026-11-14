@@ -1,6 +1,6 @@
 # FS-LEA: method-core source and saved-result verification
 
-FS-LEA studies training-derived entity context for description-based entity retrieval within the LEA framework. This candidate includes historical method-core source and numerical verification of the completed DOREMUS controlled experiment. The full final v2.3 executor is not provided.
+FS-LEA studies training-derived entity context for description-based entity retrieval within the LEA framework. This repository includes historical method-core source and numerical verification of the completed DOREMUS controlled experiment. The full final v2.3 executor is not provided.
 
 ## Start here
 
@@ -34,6 +34,10 @@ Choose an unused environment path if that path already exists. Both checkers mus
 
 Historical controlled.py and pipeline.py are provided in method_source with original/candidate hashes and documented path redaction. They expose support construction, prompting, encoding interfaces and SVD/rank arithmetic. The final v2.3 generation/recovery executor and its supporting modules remain excluded. Static source inspection does not reproduce the full pipeline. Benchmark files, original entity mappings, profiles, full prompts/responses, embeddings and weights are excluded.
 
-This staged increment does not establish a public download channel. The approved baseline repository is Private; this increment has not been uploaded. No blanket licence has been assigned. See [rights and scope](RIGHTS_AND_SCOPE.md). The numerical sub-bundle retains its original documentation and checksums unchanged; its references to local preparation are historical status notes, not new paper-approval requirements.
+The two method-core source files and saved-result verification materials are included in this repository. The four specified Python files are licensed under MIT, and the four specified numerical-result files under CC BY 4.0, with copyright/attribution to Jiahao Miao. No licence is extended to excluded third-party resources. See [rights and scope](RIGHTS_AND_SCOPE.md). The numerical sub-bundle retains its original documentation and checksums unchanged; its references to local preparation are historical status notes, not new paper-approval requirements.
 
 The third-party standardized datasets, exact local encoder snapshot/patches and any separately authorized API access must be obtained externally; see method_source/DEPENDENCIES.md. Do not run historical provider entry points as a verification test.
+
+## Licences
+
+[MIT software licence](LICENSE-MIT.txt) and [CC BY 4.0 numerical-data licence](LICENSE-DATA-CC-BY-4.0.txt) have distinct scopes. The exact file lists are in [RIGHTS_AND_SCOPE.md](RIGHTS_AND_SCOPE.md); these licences do not automatically cover other files or third-party resources.

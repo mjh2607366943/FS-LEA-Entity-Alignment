@@ -1,6 +1,6 @@
 # FS-LEA historical method-core source candidate
 
-**Historical source-reading supplement. The exact incremental transfer/publication scope still needs approval; no software/data licence is assigned by this candidate.**
+**Historical source-reading supplement. The two method-core Python files are provided under the MIT License, Copyright (c) 2026 Jiahao Miao. Numerical-data licensing is separate; see the root rights and licence scope.**
 
 This is a small historical source supplement to the existing saved-rank verification repository. It contains two real, previously used files, not a new or synthetic implementation. Their original and candidate hashes are in SOURCE_FILES.csv. No data, model weights, embeddings, complete prompts/responses or API records are included.
 
@@ -29,4 +29,4 @@ Adding these files improves source inspectability only. Existing saved-rank veri
 
 ## Upstream comparison
 
-LEA was inspected at official commit c511638996d5f5317d6d29e5245025e420672f09. No explicit repository licence was found. A scoped comparison against 25 official Python files and two local historical LEA files found no exact whole-function or identifier-normalized whole-function copies; the original A instruction is an external dependency, not embedded text in these two files. Shared short strings include a generic system role, an API endpoint and configuration names. These observations support source distinction, not a legal guarantee of all ownership or a right to redistribute LEA itself. The author describes these files as self-developed FS-LEA research code. Final exact-file publication authority and licence choice remain separate.
+LEA was inspected at official commit c511638996d5f5317d6d29e5245025e420672f09. No explicit repository licence was found. A scoped comparison against 25 official Python files and two local historical LEA files found no exact whole-function or identifier-normalized whole-function copies; the original A instruction is an external dependency, not embedded text in these two files. Shared short strings include a generic system role, an API endpoint and configuration names. These observations support source distinction, not a legal guarantee of all ownership or a right to redistribute LEA itself. The author describes these files as self-developed FS-LEA research code. Jiahao Miao confirmed the original-source release and MIT grant; the grant does not include upstream LEA code/templates or excluded resources.

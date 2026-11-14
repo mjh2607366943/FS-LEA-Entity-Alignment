@@ -1,0 +1,22 @@
+# Never stage local runtime, secret files, raw caches or original research data.
+verification_env/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+credentials*
+*secret*
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+raw_data/
+raw_cache/
+responses.jsonl
+attempts.jsonl
+local_audit/
+verified_metrics.json

@@ -1,0 +1,242 @@
+[
+  {
+    "expected_entities": 334,
+    "generation_repeat": 1,
+    "group": "A",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_A.jsonl",
+    "run_id": "A_r1",
+    "support_selection_seed": null,
+    "support_set": null
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 2,
+    "group": "A",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_A.jsonl",
+    "run_id": "A_r2",
+    "support_selection_seed": null,
+    "support_set": null
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 3,
+    "group": "A",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_A.jsonl",
+    "run_id": "A_r3",
+    "support_selection_seed": null,
+    "support_set": null
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 1,
+    "group": "B",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_B.jsonl",
+    "run_id": "B_r1",
+    "support_selection_seed": null,
+    "support_set": null
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 2,
+    "group": "B",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_B.jsonl",
+    "run_id": "B_r2",
+    "support_selection_seed": null,
+    "support_set": null
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 3,
+    "group": "B",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_B.jsonl",
+    "run_id": "B_r3",
+    "support_selection_seed": null,
+    "support_set": null
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 1,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S1.jsonl",
+    "run_id": "C_S1_r1",
+    "support_selection_seed": 11,
+    "support_set": "S1"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 2,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S1.jsonl",
+    "run_id": "C_S1_r2",
+    "support_selection_seed": 11,
+    "support_set": "S1"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 3,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S1.jsonl",
+    "run_id": "C_S1_r3",
+    "support_selection_seed": 11,
+    "support_set": "S1"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 1,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S1.jsonl",
+    "run_id": "D_S1_r1",
+    "support_selection_seed": 11,
+    "support_set": "S1"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 2,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S1.jsonl",
+    "run_id": "D_S1_r2",
+    "support_selection_seed": 11,
+    "support_set": "S1"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 3,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S1.jsonl",
+    "run_id": "D_S1_r3",
+    "support_selection_seed": 11,
+    "support_set": "S1"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 1,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S2.jsonl",
+    "run_id": "C_S2_r1",
+    "support_selection_seed": 22,
+    "support_set": "S2"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 2,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S2.jsonl",
+    "run_id": "C_S2_r2",
+    "support_selection_seed": 22,
+    "support_set": "S2"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 3,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S2.jsonl",
+    "run_id": "C_S2_r3",
+    "support_selection_seed": 22,
+    "support_set": "S2"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 1,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S2.jsonl",
+    "run_id": "D_S2_r1",
+    "support_selection_seed": 22,
+    "support_set": "S2"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 2,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S2.jsonl",
+    "run_id": "D_S2_r2",
+    "support_selection_seed": 22,
+    "support_set": "S2"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 3,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S2.jsonl",
+    "run_id": "D_S2_r3",
+    "support_selection_seed": 22,
+    "support_set": "S2"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 1,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S3.jsonl",
+    "run_id": "C_S3_r1",
+    "support_selection_seed": 33,
+    "support_set": "S3"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 2,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S3.jsonl",
+    "run_id": "C_S3_r2",
+    "support_selection_seed": 33,
+    "support_set": "S3"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 3,
+    "group": "C",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_C_S3.jsonl",
+    "run_id": "C_S3_r3",
+    "support_selection_seed": 33,
+    "support_set": "S3"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 1,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S3.jsonl",
+    "run_id": "D_S3_r1",
+    "support_selection_seed": 33,
+    "support_set": "S3"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 2,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S3.jsonl",
+    "run_id": "D_S3_r2",
+    "support_selection_seed": 33,
+    "support_set": "S3"
+  },
+  {
+    "expected_entities": 334,
+    "generation_repeat": 3,
+    "group": "D",
+    "llm_generation_seed": null,
+    "prompt_file": "dry_run/prompts_D_S3.jsonl",
+    "run_id": "D_S3_r3",
+    "support_selection_seed": 33,
+    "support_set": "S3"
+  }
+]

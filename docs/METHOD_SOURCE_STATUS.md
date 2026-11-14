@@ -1,6 +1,6 @@
 # Real production source: availability status
 
-The source identities below belong to the completed controlled experiment. Their bodies are **not in this upload payload**. They remain in a separate local rights-hold archive; no synthetic example or new replacement implementation is presented as production code.
+The source identities below belong to the completed controlled experiment. This staged increment includes historical controlled.py and pipeline.py under method_source. Five other production bodies and the optional historical report_stage3_v22 remain excluded. No synthetic example or newly written replacement is presented as production code.
 
 | Module | Role |
 |---|---|
@@ -12,9 +12,9 @@ The source identities below belong to the completed controlled experiment. Their
 | network_v23.py | Connectivity diagnostics (not necessary for numerical reproduction) |
 | report_stage3_v23.py | Saved-result reporting |
 
-Historical execution evidence consists of frozen source bindings and completion/run artifacts; it is not a dynamic trace of every function. The seven source files were not executed in this preparation. Their layout and excluded resources do not form a standalone runnable method package. The legacy synthetic `prompt_context.py` and `repro_core.py` are not substituted for them.
+Historical execution evidence consists of frozen source bindings and completion/run artifacts; it is not a dynamic trace of every function. The source files were not imported or executed in this preparation; the existing numerical checkers alone were run. Their layout and excluded resources do not form a standalone runnable method package. The legacy synthetic `prompt_context.py` and `repro_core.py` are not substituted for them.
 
-Exact original and held-copy digests are listed below. Only controlled.py has a documented text transformation: two private path roots replaced by placeholders; the other six archives are byte-identical. Individual/institutional authorship and dependency permissions still need confirmation. Source archiving is not end-to-end reproducibility.
+Exact original and held-copy digests are listed below. Only controlled.py has a documented text transformation: two private path roots replaced by placeholders; the other six archives are byte-identical. The author declares self-development of the FS-LEA implementation. Scoped comparison found no substantial upstream code copy in the two selected files; the external LEA A instruction remains excluded. The exact new file list/transfer and any applicable other-contributor or institutional constraints still require confirmation, and no licence has been selected. Source archiving is not end-to-end reproducibility.
 
 ```json
 [
@@ -22,13 +22,13 @@ Exact original and held-copy digests are listed below. Only controlled.py has a 
     "module": "controlled.py",
     "original_sha256": "ce3474a2f5a905a415c6867bfd13c672a17fea181a2d0fdca6e2b15b64998e73",
     "held_archive_sha256": "e1e9608e79af223ae90f816af0560b4ab95d7642ab8a91fc1099eb26b644dcc2",
-    "status": "withheld pending author/institution rights confirmation"
+    "status": "included in staged method_source; exact increment authorization pending"
   },
   {
     "module": "pipeline.py",
     "original_sha256": "6c99780effdc44edf1188b9278d24d5bd7ce77922e80f6872cbddf2e78211bd1",
     "held_archive_sha256": "6c99780effdc44edf1188b9278d24d5bd7ce77922e80f6872cbddf2e78211bd1",
-    "status": "withheld pending author/institution rights confirmation"
+    "status": "included in staged method_source; exact increment authorization pending"
   },
   {
     "module": "execute_stage3.py",
@@ -62,3 +62,5 @@ Exact original and held-copy digests are listed below. Only controlled.py has a 
   }
 ]
 ```
+
+The older controlled.py command entry points are not the final v2.3 HTTP/cache implementation. Import closure for the latter additionally needs execute_stage3_v23, execute_stage3_v22, network_v23 and report_stage3_v23; frozen resource/file closure is broader. Levels remain L1 PASS, L2 PARTIAL internally, L3/4 UNAVAILABLE.
